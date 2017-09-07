@@ -98,7 +98,7 @@ class RedisClient(object):
 
 
 if __name__ == '__main__':
-    redis_con = RedisClient('proxy', 'localhost', 6379)
+    redis_con = RedisClient('proxy', 'a027.hb2.innotree.org', 6379)
     # redis_con.put('abc')
     # redis_con.put('123')
     # redis_con.put('123.115.235.221:8800')
